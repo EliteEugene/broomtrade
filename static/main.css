@@ -113,3 +113,32 @@
 .buttons {
     text-align: right;
 }
+#imagepool_output {
+    display: none;
+}
+#imagepool_image_list {
+    margin-top: 60px;
+}
+#imagepool_image_list td {
+    text-align: center;
+    width: 160px;
+    height: 120px;
+}
+#imagepool_image_list td.link {
+    font-size: xx-large;
+    width: 20px;
+}
+#imagepool_image_list td img {
+    max-width: 160px;
+    max-height: 100px;
+}
+#imagepool_image_list a:link, #imagepool_image_list a:visited,
+#imagepool_image_list a:active, #imagepool_image_list a:hover {
+    text-decoration: none;
+}
+#imagepool_image_list a.disabled:link,
+#imagepool_image_list a.disabled:visited,
+#imagepool_image_list a.disabled:active,
+#imagepool_image_list a.disabled:hover {
+    display: none;
+}

@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^login/', "django.contrib.auth.views.login", name="login"),
     url(r'^logout/', "django.contrib.auth.views.logout", name="logout"),
     url(r'^guestbook/', include('guestbook.urls')),
+    url(r'^imagepool/', include('imagepool.urls')),
     url(r'^news/', include('news.urls')),
     url(r'^$', include('main.urls')),
 ]
